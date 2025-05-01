@@ -1,28 +1,5 @@
 import java.util.Scanner;
 
-class Admin {
-    private final String username = "HELMI";
-    private final String PW = "149";
-
-    public boolean login(String inputUsername, String inputPassword) {
-        return inputUsername.equals(username) && inputPassword.equals(PW);
-    }
-}
-
-class Mahasiswa {
-    private final String nama = "MASDAR HELMI";
-    private final long nim = 202410370110149L;
-
-    public boolean login(String inputNama, long inputNim) {
-        return inputNama.equals(nama) && inputNim == nim;
-    }
-
-    public void tampilanInfo() {
-        System.out.println("Login Mahasiswa Berhasil!");
-        System.out.println("Nama: " + nama);
-        System.out.println("NIM : " + nim);
-    }
-}
 
 public class LoginSystem {
     public static void main(String[] args) {
